@@ -1,0 +1,44 @@
+.contact-list {
+  margin: 20px;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.contact-table td {
+  background-color: #ffffff;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.action-button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.action-button.update {
+  background-color: #007bff;
+}
+
+.action-button.delete {
+  background-color: #dc3545;
+}
